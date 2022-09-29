@@ -1,0 +1,180 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background: #1a1a1a;
+}
+.header{
+  color: white;
+  width: 100vw;
+  background-image: linear-gradient(#303030, #111111);
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo{
+  width: 325px;
+  margin-left:15px;
+}
+.menu-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+h1{
+  font-size: 25px;
+}
+.menu{
+  width: 60%;
+  display:flex;
+  justify-content: space-evenly;
+  margin-left:20px;
+  font-size: 30px;
+  align-items: center;
+  margin-right: 315px;
+  font-family: Montserrat,sans-serif;
+}
+.menu a{
+   text-decoration: none;
+  color: white;
+}
+aside{
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.banner{
+  box-shadow: 4px 4px 15px #7075ff;
+}
+h2{
+  color: aliceblue;
+  margin-top: 0%;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 5px;
+}
+h3{
+  color: aliceblue;
+  margin-top: 0%;
+  font-size: 23px;
+  margin: 0px;
+}
+.obj{
+  justify-content: space-around;
+  height: 200px;
+  background: #586bfe;
+  color: #545454;
+  padding-left: 75px;
+  padding-right: 75px;
+  
+}
+.objetivo{
+  text-align: center;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.olho{
+  border-radius: 80%;
+  overflow: hidden;
+  box-shadow: 2px 3px 10px #666bff;
+}
+.mae{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.conhecimentosh1{
+text-align: center;
+font-family: Montserrat,sans-serif;
+color: #586bfe;
+}
+.table1{
+  background: #040416;
+  height: 50%px;
+  width: 35%;;
+  font-family: Montserrat,sans-serif;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 2px 3px 10px #242bff;
+  
+}
+.table2{
+  background: #040416;
+  justify-content: space-around;
+  height: 50%px;
+  width: 35%;
+  font-family: Montserrat,sans-serif;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 2px 3px 10px #242bff;
+}
+.conhecimentos2h1{
+text-align: center;
+font-family: Montserrat,sans-serif; 
+color: #586bfe;
+}
+.list1{
+  color: white;
+  font-size: 20px;
+}
+.list1 ul{
+  list-style-type:none;
+}
+.list3 ul{
+  list-style-type:none;
+}
+.list4 ul{}
+.text{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.objetivo{
+  text-align: center;
+  font-size: 28px;
+  font-family: Montserrat,sans-serif;
+  
+}
+footer{
+  width: 100%;
+  height: 90px;
+  background: #212121;
+  display: flex;
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: Tahoma;
+  justify-content: center;
+}
+.contato{
+  width: 320px;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.ContatoImg:hover {
+  background-color: #1a34ff;
+  border-radius: 90%;
+}
+.copy{
+  width: 100%;
+  min-height: 50px;
+  background: #040416;
+}
+.brenocopy{
+  margin-top: 0%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
